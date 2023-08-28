@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>speechRecognition</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+  </head>
+  <body>
+    <h2>입력된 문장</h2>
+    <p class="speachText"></p>
+    <button type="button" class="startButton" onclick="onClickStartButton()">
+      시작
+    </button>
+    <button
+      type="button"
+      class="endButton"
+      onclick="onClickEndButton()"
+      disabled
+    >
+      종료
+    </button>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
